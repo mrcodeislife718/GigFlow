@@ -1,1 +1,15 @@
-{"name":"gigflow-core","version":"0.1.0","private":true,"type":"module","scripts":{"test":"node --test","demo":"node src/demo.js"},"engines":{"node":">=20"}}
+{
+  "name": "gigflow",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "check": "npm test",
+    "demo": "node src/demo.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
